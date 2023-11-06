@@ -4,7 +4,7 @@ header{
 }
 .my_sidebar{
     background-color: #122A3F;
-    height: 900px;
+    height: 100vh;
     width: 15%;
 }
 .my_cta{
@@ -16,11 +16,25 @@ header{
     .my_sidebar{
         width: 7%;
     }
+    .my_cta{
+        width: 93%; 
+    }
     
 }
 @media screen and (min-width: 992px) {
     .my_sidebar{
         width: 7%;
+        
     }
-    
+    .my_cta{
+        width: 93%; 
+    }
+}
+.prossime-classi{
+    background-color: aqua;
+    height: 500px;
+}
+.faq{
+    background-color: blue;
+    height: 400px;
 }
