@@ -1,0 +1,26 @@
+header{
+    height: 80px;
+    background-color: aqua;
+}
+.my_sidebar{
+    background-color: #122A3F;
+    height: 900px;
+    width: 15%;
+}
+.my_cta{
+    background-color: #1B72E8;
+    height: 250px;
+    width: 85%;
+}
+@media screen and (min-width: 768px) {
+    .my_sidebar{
+        width: 7%;
+    }
+    
+}
+@media screen and (min-width: 992px) {
+    .my_sidebar{
+        width: 7%;
+    }
+    
+}
