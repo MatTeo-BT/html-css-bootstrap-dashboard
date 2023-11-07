@@ -12,6 +12,7 @@ header{
     height: 250px;
     width: 85%;
 }
+
 @media screen and (min-width: 768px) {
     .my_sidebar{
         width: 7%;
@@ -33,6 +34,7 @@ header{
 .prossime-classi{
     background-color: aqua;
     height: 500px;
+    
 }
 .faq{
     background-color: blue;
