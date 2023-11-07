@@ -7,10 +7,16 @@ header{
     height: calc(100vh - 80px);
     width: 15%;
 }
+main{
+    height: 100vh;
+    overflow: scroll;
+}
 .my_cta{
     background-color: #1B72E8;
-    height: 250px;
     
+}
+.my_wrapper{
+    display: flex;
 }
 
 @media screen and (min-width: 768px) {
@@ -30,13 +36,4 @@ header{
     /* .my_cta{
         width: 93%; 
     } */
-}
-.prossime-classi{
-    background-color: aqua;
-    height: 500px;
-    
-}
-.faq{
-    background-color: blue;
-    height: 400px;
 }
